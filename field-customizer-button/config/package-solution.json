@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "field-customizer-button-client-side-solution",
+    "id": "cd86d4fa-5ebe-4432-90d7-b8bf871d07fc",
+    "version": "1.0.0.0",
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "d02f4739-fc75-404d-853e-27c45382dbdf",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/field-customizer-button.sppkg"
+  }
+}

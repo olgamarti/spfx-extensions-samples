@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "top-info-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/topInfo/TopInfoApplicationCustomizer.js",
+          "manifest": "./src/extensions/topInfo/TopInfoApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TopInfoApplicationCustomizerStrings": "lib/extensions/topInfo/loc/{locale}.js"
+  }
+}

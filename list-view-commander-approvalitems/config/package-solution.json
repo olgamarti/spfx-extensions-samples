@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "list-view-commander-approval-items-client-side-solution",
+    "id": "87953097-04c9-46af-a260-fdf352c6c0b1",
+    "version": "1.0.0.0",
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "10b6d7a7-d27e-4ffa-a897-233b2d024cb1",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/list-view-commander-approval-items.sppkg"
+  }
+}

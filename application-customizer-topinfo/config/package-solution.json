@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "application-customizer-topinfo-client-side-solution",
+    "id": "3b66d3f3-9ff9-47fb-bbff-7622b2ad5045",
+    "version": "1.0.0.1",
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "a078b45e-dfca-4936-a08e-369d716bf22a",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/application-customizer-topinfo.sppkg"
+  }
+}
